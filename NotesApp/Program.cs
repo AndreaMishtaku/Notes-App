@@ -83,6 +83,7 @@ builder.Services.Configure<JwtConfiguration>(builder.Configuration.GetSection("J
 builder.Services.ConfigureSwagger();
 
 builder.Services.AddSingleton(builder.Configuration.GetSection("DefaultConfiguration"));
+builder.Services.AddLogging(builder =>{ builder.AddConsole();});
 
 builder.Services.AddControllers(config =>
 {

@@ -90,3 +90,9 @@ C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Microsoft.Iden
 C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Service.dll
 C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Service.pdb
 C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Dapper.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\NotesApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

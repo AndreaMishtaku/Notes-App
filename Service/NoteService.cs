@@ -8,6 +8,7 @@ using Shared.Request;
 using Shared.Response;
 using Shared.Configuration;
 using Shared.Response.Columns;
+using Microsoft.Extensions.Logging;
 
 namespace Service;
 
@@ -17,15 +18,20 @@ public class NoteService : INoteService
     private readonly IMapper _mapper;
     private readonly INoteRepository _noteRepository;
     private readonly IClaimsUtility _claimsUtility;
+    private readonly ILogger<NoteService> _logger;
 
-    public NoteService(IMapper mapper, INoteRepository noteRepository,IClaimsUtility claimsUtility)
+    public NoteService(IMapper mapper, INoteRepository noteRepository,IClaimsUtility claimsUtility, ILogger<NoteService> logger)
     {
 
         _mapper = mapper;
         _noteRepository = noteRepository;
         _claimsUtility = claimsUtility;
+        _logger = logger;
+
 
     }
+
+ 
 
     public async Task<BaseResponse> CreateNote(NoteRequestDTO noteDTO)
     {
@@ -53,6 +59,7 @@ public class NoteService : INoteService
         }
         catch (Exception ex)
         {
+            _logger.LogError("Note creation failed!!!");
             throw new BadRequestException(ex.Message);
         }
     }
@@ -178,6 +185,7 @@ public class NoteService : INoteService
         }
         catch (Exception ex)
         {
+            _logger.LogError("Note update failed!!!");
             throw new BadRequestException(ex.Message);
 
         }

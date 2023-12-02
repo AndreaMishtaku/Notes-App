@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp", "NotesApp\NotesApp.csproj", "{57E8A702-0FAF-440B-BE67-0EE45F8A536C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp", "NotesApp\NotesApp.csproj", "{57E8A702-0FAF-440B-BE67-0EE45F8A536C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{14B2138D-FDA5-4E50-9297-4424E14437D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{14B2138D-FDA5-4E50-9297-4424E14437D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepository", "IRepository\IRepository.csproj", "{549A242C-A4AC-4FCF-9D84-0122A6CB68BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRepository", "IRepository\IRepository.csproj", "{549A242C-A4AC-4FCF-9D84-0122A6CB68BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{D0A65F93-F950-40E2-BF61-4230CA65A232}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{D0A65F93-F950-40E2-BF61-4230CA65A232}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IService", "IService\IService.csproj", "{6FDB088A-B224-4769-9838-E7033D3D4FF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IService", "IService\IService.csproj", "{6FDB088A-B224-4769-9838-E7033D3D4FF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{7D8F05AC-3B34-4193-B2A6-10B4AA67D153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{7D8F05AC-3B34-4193-B2A6-10B4AA67D153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{4B863EB3-E1D4-4E95-BF4D-60D0512323D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{4B863EB3-E1D4-4E95-BF4D-60D0512323D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{F622D6F4-7700-41EA-A9EC-F7F5D6794C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{F622D6F4-7700-41EA-A9EC-F7F5D6794C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "UnitTesting\Tests.csproj", "{3CE4EDE8-572E-4D2B-ABEF-CDC6DF300F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F622D6F4-7700-41EA-A9EC-F7F5D6794C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F622D6F4-7700-41EA-A9EC-F7F5D6794C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F622D6F4-7700-41EA-A9EC-F7F5D6794C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE4EDE8-572E-4D2B-ABEF-CDC6DF300F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE4EDE8-572E-4D2B-ABEF-CDC6DF300F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE4EDE8-572E-4D2B-ABEF-CDC6DF300F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE4EDE8-572E-4D2B-ABEF-CDC6DF300F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
