@@ -1,0 +1,12 @@
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\bin\Debug\net6.0\Exceptions.deps.json
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\bin\Debug\net6.0\Exceptions.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\bin\Debug\net6.0\Exceptions.pdb
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\Exceptions.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\Exceptions.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\refint\Exceptions.dll
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\Exceptions.pdb
+C:\Users\ADMIN\Documents\ztemp\NotesApp\Exceptions\obj\Debug\net6.0\ref\Exceptions.dll
